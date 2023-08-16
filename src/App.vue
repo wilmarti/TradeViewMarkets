@@ -1,11 +1,19 @@
 <template color="red">
   <div>
-    <v-toolbar draw dark color="#181f29">
+    <v-card
+    color="grey lighten-4"
+    flat
+    height="200px"
+    tile
+  >
+    <v-toolbar flat tile dark color="#181f29">
       <router-link to="/Home">
         <v-img
           alt="Vuetify Name"
           class="shrink mt-1 hidden-sm-and-down"
           contain
+          max-height="100"
+              max-width="200"
           src="./assets/logo.jpg"
         />
       </router-link>
@@ -14,33 +22,30 @@
       <!-- <v-toolbar-title>Vuetify</v-toolbar-title> -->
 
       <v-spacer></v-spacer>
-
-      <v-btn class="ma-2" x-small plain :to="{ name: 'forex' }">
+      <div xs12 >
+      <v-btn x-small :to="{ name: 'forex' }">
         FOREX
       </v-btn>
 
-      <v-btn ma-2 x-small plain color="#181f29" :to="{ name: 'stocks' }">
+      <v-btn x-small color="#181f29" :to="{ name: 'stocks' }">
         STOCKS
       </v-btn>
 
       <v-btn
-        class="ma-2"
         x-small
-        plain
         color="#181f29"
         :to="{ name: 'futures' }"
       >
         FUTURES
       </v-btn>
       <v-btn
-        class="ma-2"
         x-small
-        plain
         color="#181f29"
         :to="{ name: 'tradegatehub' }"
       >
         TradeGATEHub
       </v-btn>
+      </div>
 
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
@@ -56,6 +61,8 @@
 
 
     </v-toolbar>
+  </v-card>
+
     
 <!--     //componente home -->
     <Home/>
@@ -69,7 +76,6 @@
 <script>
 import auth from "@/auth";
 import store from "./store/index.js";
-import Market from './components/Market.vue'
 
 export default {
   name: "App",
@@ -101,10 +107,6 @@ export default {
       this.$router.push("/forex").catch(()=>{}); 
     }
   },
-
-  components: {
-      Market
-    },
 
 
 
