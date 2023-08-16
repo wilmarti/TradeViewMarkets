@@ -101,8 +101,8 @@ Las utilidades y dependencias extras utilizadas fueron las siguiente:
 
 ## Diseño para dispositivos móviles
 
-- El sistema fue diseñado utilizando Vuetify (Biblioteca de interfaz de usuario de Vue que ofrece componentes de Material Design Framework),esta libreria facilita el traajo para el manejo de interfaces de usuario responsivas, es decir, autoajusables a dispositivos móviles, tabien se trabajo con el sistema de cajas Flexbox, el cual es un modelo de diseño CSS3 para manejo de estructuras responsivas.
-- Se realizó el diseño con tarjetas (cards), para facilitar la vista y navegación en el sitio y cualquier dispositivo movil.
+- El sistema fue diseñado utilizando Vuetify (Biblioteca de interfaz de usuario de Vue que ofrece componentes de Material Design Framework),esta librería facilita el trabajó para el manejo de interfaces de usuario responsivas, es decir, autoajustables a dispositivos móviles, también se trabajó con el sistema de cajas Flexbox, el cual es un modelo de diseño CSS3 para manejo de estructuras responsivas.
+- Se realizó el diseño con tarjetas (cards), para facilitar la vista y navegación en el sitio y cualquier dispositivo móvil.
 
 ## Recursos Adicionales Utilizados
 - Reutilizacion de funciones
