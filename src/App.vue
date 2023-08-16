@@ -1,11 +1,6 @@
 <template color="red">
   <div>
-    <v-card
-    color="grey lighten-4"
-    flat
-    height="200px"
-    tile
-  >
+
     <v-toolbar flat tile dark color="#181f29">
       <router-link to="/Home">
         <v-img
@@ -22,7 +17,7 @@
       <!-- <v-toolbar-title>Vuetify</v-toolbar-title> -->
 
       <v-spacer></v-spacer>
-      <div xs12 >
+      <div>
       <v-btn x-small :to="{ name: 'forex' }">
         FOREX
       </v-btn>
@@ -61,7 +56,7 @@
 
 
     </v-toolbar>
-  </v-card>
+
 
     
 <!--     //componente home -->
