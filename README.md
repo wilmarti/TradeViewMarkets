@@ -23,7 +23,7 @@ Transformar el diseño proporcionado en una página web responsive utilizando el
 # Pasos para la instalacion del proyecto Front End
 
 1.	Realice la instalación de Node.js desde el sitio https://nodejs.org/es/ (si aún no lo ha realizado), version v14.21.3.
-2.	Clone el repositorio desde GitHub con el siguiente comando: git clone https://github.com/wilmarti/VisorSuperHeroes.git
+2.	Clone el repositorio desde GitHub con el siguiente comando: git clone https://github.com/wilmarti/TradeViewMarkets.git
 3.	Abra la carpeta denominada FrontEndPrueba en un editor de codigo como Visual Studio code.
 4.	Presione el comando “npm i”, para descargar todas las dependencias del proyecto.
 5.	Para lanzar el Front End digite el comando “npm run serve”
@@ -58,7 +58,6 @@ Este proyecto de páctica contiene un conjunto de buenas prácticas para el desa
 ## Rendimiento
 
 - Se optimizaron y comprimieron los recursos (imágenes, CSS, JS) para reducir los tiempos de carga.
-- Minimiza las solicitudes HTTP utilizando librerias como axios.
 - Se utilizaron herramientas de almacenamiento del navegador, como lo son LocalStorage y Cookies.
 
 ## Compatibilidad con Navegadores
@@ -74,14 +73,13 @@ Este proyecto de páctica contiene un conjunto de buenas prácticas para el desa
 
 - JavaScript como lenguaje de alto nivel.
 - Se utilizo Vue.js como Framework Front end
-- Para el Back End se utilizo el Api Rest de Marvel (https://gateway.marvel.com/v1/public/comics?ts=1000&apikey=345d1a90c95c65fcb
-e249e2906cef261&hash=5d1b5769ce0f6716c78da23702ad53e0)
+
 Las utilidades y dependencias extras utilizadas fueron las siguiente:
-   * Axios (es un paquete que encontraremos en npm y que nos permite hacer peticiones o llamadas al contenido de un enlace HTTP.)
    * Vuetify (Biblioteca de interfaz de usuario de Vue que ofrece componentes de Material Design Framework)
+   * Flexbox el cual es un método de diseño de página unidimensional para compaginar elementos en filas o columnas. Los elementos de contenido se ensanchan para rellenar el espacio adicional y se encogen para caber en espacios más pequeños
    * ScrollDiv (componente contenedor de desplazamiento basado en vue.js)
    * VuePaginate (componente de paginacion basado en vue.js)
-- Proporciona instrucciones claras sobre cómo configurar el entorno de desarrollo y cómo instalar dependencias.
+
 
 ## Diseño para dispositivos móviles
 
