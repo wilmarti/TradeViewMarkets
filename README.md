@@ -1,26 +1,24 @@
-# Visor de Super Heroes (Dentsu Creative) - Descripción del Proyecto
-El Visor de Superhéroes es una aplicación diseñada para permitir a los usuarios explorar una lista de superhéroes, conocer sus habilidades y votar por ellos para crear un ranking. Este proyecto se enmarca en la prueba técnica para la posición de desarrollador Full Stack en Dentsu.
+# Prueba para Desarrollador Frontend - Tradeview Markets - Descripción del Proyecto
+Transformar el diseño proporcionado en una página web responsive utilizando el framework Vue.js. Cada sección del diseño debe representarse como un componente Vue. Presta atención a mantener un diseño responsive y garantizar una experiencia de usuario fluida.
+- Diseño del Mockup: https://xd.adobe.com/view/3d630dbd-e221-44c5-891f-0ad1b32a661d-6830/
 
 ## Características Principales
 
-- Cada superhéroe cuenta con su propia página interna que muestra información detallada sobre él.
-- La interfaz está optimizada para dispositivos móviles, asegurando una experiencia de usuario fluida en diferentes pantallas.
-- La vista principal presenta una cuadrícula de tarjetas individuales. Cada tarjeta incluye la imagen, el nombre, la descripción y el editor del superhéroe.
-- Los usuarios pueden votar por los superhéroes usando los botones "Me Gusta" y "No me Gusta", y estos votos se almacenan de forma persistente en una Cookie o en LocalStorage.
-- Los resultados se presentan de manera paginada, mostrando grupos de 9 tarjetas por página.
-- Una vista adicional presenta un slider que muestra el ranking de "Los 10 más votados". Los usuarios pueden acceder a esta vista a través de un botón en la vista principal.
+- Crea un proyecto Vue.js.
+- Crea componentes Vue para cada sección del mockup.
+- Implementa el diseño, asegurándote de que la página sea completamente responsive.
+- Utiliza HTML, CSS y las mejores prácticas de Vue.js.
+- Aloja la página web en línea y comparte el enlace para su visualización.
 
 ## Tecnologías Utilizadas
 - Vue.js: Se utiliza Vue.js como el framework principal para construir la interfaz de usuario y gestionar los componentes de la aplicación.
-- Axios: La biblioteca Axios se emplea para realizar solicitudes HTTP y comunicarse con la API de superhéroes.
+- Css: CSS permite separar el contenido HTML de su presentación visual. Es decir, te permite mantener el código HTML limpio y estructurado, mientras que el estilo se define en un archivo CSS separado. Este orden mejora la legibilidad del código y facilita el mantenimiento, así como la actualización de los estilos
 - Vuetify: Vuetify es un framework de diseño que proporciona componentes y estilos predefinidos para crear una interfaz atractiva y coherente.
 
 ## Notas para los Desarrolladores
-- El servicio backend debe ser implementado en un lenguaje de alto nivel y puede hacer uso de frameworks según tu elección.
-- Asegúrate de proporcionar tokens para la autenticación y consumo de la API de superhéroes.
-- En el frontend, tienes la libertad de elegir entre frameworks Frontend como AngularJs, Angular, ReactJs, VueJs, entre otros.
-- Toma decisiones relacionadas con la interfaz gráfica para crear una experiencia de usuario atractiva y funcional.
-- Asegura que el método que exponga la información de los superhéroes inscritos para la API esté correctamente implementado y accesible.
+- Configura un repositorio Git para el proyecto Vue.js.
+- Realiza commits de tu código con mensajes claros.
+- Asegúrate de que tu repositorio sea accesible y contenga los archivos necesarios.
 
 # Pasos para la instalacion del proyecto Front End
 
